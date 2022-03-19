@@ -176,6 +176,8 @@ app.get("/weather", (req, res) => {
 //         title: "404 page",
 //     });
 // });
+
+
 // the end of progect
 // app.get("*", (req, res, next) => {
 //     /// if inter url deffrent

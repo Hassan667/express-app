@@ -10,7 +10,8 @@ form.addEventListener("submit", (e) => {
 // async--> func return promise
 let weatherFun = async() => {
     try {
-        const address = document.getElementById("address").value;
+	    const address = document.getElementById("address").value;
+	    
         const res = await fetch("http://localhost:3000/weather?address=" + address);
         const data = await res.json();
         console.log(data);
